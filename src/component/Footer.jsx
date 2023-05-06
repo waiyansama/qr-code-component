@@ -1,13 +1,11 @@
-import React from "react";
-
 function Footer() {
   return (
-    <footer className="text-sm text-center font-sans mb-4">
+    <footer className="footer">
       Challenge by {""}
       <a
         href="https://www.frontendmentor.io?ref=challenge"
         target="_blank"
-        className="text-blue-700 underline"
+        className="text-blue-700 underline" rel="noreferrer"
       >
         Frontend Mentor
       </a>
@@ -15,7 +13,7 @@ function Footer() {
       <a
         href="https://web.facebook.com/waiyansama"
         target="_blank"
-        className="text-blue-700 underline"
+        className="text-blue-700 underline" rel="noreferrer"
       >
         Htet Wai Yan
       </a>
