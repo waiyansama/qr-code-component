@@ -1,17 +1,27 @@
+/* importing "Inter" and "Outfit" font from google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@400;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* background color */
+body {
+  @apply bg-primary;
+}
+
 .app-container {
-  @apply flex flex-col items-center h-full pt-20 bg-primary h-screen justify-between md:pt-32;
+  @apply flex flex-col items-center justify-between pt-20 h-screen;
 }
 
 .card {
-  @apply bg-white  rounded-xl overflow-hidden shadow-lg px-4 pt-4 pb-8 w-316 mb-20;
+  @apply bg-white rounded-xl overflow-hidden shadow-lg px-4 pt-4 pb-8 w-316 flex-shrink-0;
 }
 
 .text-container {
   @apply w-64 m-auto text-center mt-8 font-outfit;
+}
+
+.footer {
+  @apply text-sm text-center font-sans mt-10 mb-4;
 }
